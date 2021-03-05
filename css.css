@@ -1,0 +1,92 @@
+body {
+	color: white;
+    background-color: black;
+    width: 80%;
+    margin: 0;
+    padding: 0 10% 0 10%;
+}
+
+#logo {
+    position: relative;
+    width: 32em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pre {
+	font-family: monospace, fixed;
+}
+
+.indent {
+    position: relative;
+    width: calc(100% - 4em);
+    left: 2em;
+}
+
+.horcenter {
+    text-align: center;
+}
+
+.slidetotheright {
+    position: absolute;
+    width: 80%;
+    text-align: right;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: white;
+}
+
+.blinking-cursor {
+    color: #FFFFFF;
+    -webkit-animation: 1s blink infinite;
+    -moz-animation: 1s blink infinite;
+    -ms-animation: 1s blink infinite;
+    -o-animation: 1s blink infinite;
+    animation: 1s blink infinite;
+  }
+
+
+@keyframes "blink" {
+    from, to {
+       color: transparent;
+    }
+    50% {
+        color: #FFFFFF;
+    }
+}
+
+@-moz-keyframes blink {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: #FFFFFF;
+    }
+}
+
+@-webkit-keyframes "blink" {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: #FFFFFF;
+    }
+}
+
+@-ms-keyframes "blink" {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: #FFFFFF;
+    }
+}
+
+@-o-keyframes "blink" {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: #FFFFFF;
+    }
